@@ -1,0 +1,70 @@
+@media (min-width: 0px) and(max-width:400px) {
+	#containe__home {
+		padding-top: 0vh;
+	}
+	#pricing-table-1 {
+		background-image: url(img/pricing_pattern_grayscale.svg);
+		width: 80vw;
+		height: 100px;
+		box-shadow: 0 6px 10px 3px black;
+	}
+	#pricing-table-2 {
+		background-image: url(img/pricing_pattern.svg);
+		height: 560px;
+		width: 80vw;
+		box-shadow: 0 10px 6px 3px darkblue;
+	}
+}
+@media (min-width: 100.1px) and(max-width:200px) {
+	body {
+		overflow-x: hidden;
+	}
+	#image__home {
+		max-width: 50px;
+		min-width: 100px;
+	}
+}
+
+@media (min-width: 356px) and(max-width:400px) {
+	#image__home {
+		margin-top: 15vh;
+	}
+}
+
+@media (min-width: 400px) and(max-width:450px) {
+	#image__home {
+		margin-top: 10vh;
+	}
+}
+@media (min-height: 0px) and (max-width: 400px) {
+	#containe__home {
+		padding-top: 10vh;
+	}
+}
+
+@media (min-width: 0) and(max-width:160.1px) {
+	#header__features__2 {
+		font-size: 24px;
+	}
+	.nav-brand {
+		font-size: 15px;
+	}
+	#image__home {
+		max-width: 100px;
+	}
+}
+
+@media (min-width: 992px) {
+	#pricing-table-1 {
+		background-image: url(../img/pricing_pattern_grayscale.svg);
+		overflow-x: hidden;
+		transform: translateX(70px);
+		margin-right: 100px;
+		box-shadow: 0 6px 10px 3px black;
+	}
+	#pricing-table-2 {
+		background-image: url(../img/pricing_pattern.svg);
+		transform: translateY(70px);
+		box-shadow: 0 10px 6px 3px darkblue;
+	}
+} ;
